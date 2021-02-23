@@ -19,6 +19,8 @@ namespace fileInfo
                 Console.WriteLine("파일 속성 : {0}", fileInfo.Attributes);
                 Console.WriteLine("\n");
 
+
+
             }
             else
             {
