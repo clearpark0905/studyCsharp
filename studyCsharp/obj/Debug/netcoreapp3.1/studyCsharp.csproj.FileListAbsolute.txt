@@ -1,0 +1,12 @@
+C:\Users\sanghyeok\source\repos\studyCsharp\studyCsharp\bin\Debug\netcoreapp3.1\studyCsharp.exe
+C:\Users\sanghyeok\source\repos\studyCsharp\studyCsharp\bin\Debug\netcoreapp3.1\studyCsharp.deps.json
+C:\Users\sanghyeok\source\repos\studyCsharp\studyCsharp\bin\Debug\netcoreapp3.1\studyCsharp.runtimeconfig.json
+C:\Users\sanghyeok\source\repos\studyCsharp\studyCsharp\bin\Debug\netcoreapp3.1\studyCsharp.runtimeconfig.dev.json
+C:\Users\sanghyeok\source\repos\studyCsharp\studyCsharp\bin\Debug\netcoreapp3.1\studyCsharp.dll
+C:\Users\sanghyeok\source\repos\studyCsharp\studyCsharp\bin\Debug\netcoreapp3.1\studyCsharp.pdb
+C:\Users\sanghyeok\source\repos\studyCsharp\studyCsharp\obj\Debug\netcoreapp3.1\studyCsharp.AssemblyInfoInputs.cache
+C:\Users\sanghyeok\source\repos\studyCsharp\studyCsharp\obj\Debug\netcoreapp3.1\studyCsharp.AssemblyInfo.cs
+C:\Users\sanghyeok\source\repos\studyCsharp\studyCsharp\obj\Debug\netcoreapp3.1\studyCsharp.csproj.CoreCompileInputs.cache
+C:\Users\sanghyeok\source\repos\studyCsharp\studyCsharp\obj\Debug\netcoreapp3.1\studyCsharp.dll
+C:\Users\sanghyeok\source\repos\studyCsharp\studyCsharp\obj\Debug\netcoreapp3.1\studyCsharp.pdb
+C:\Users\sanghyeok\source\repos\studyCsharp\studyCsharp\obj\Debug\netcoreapp3.1\studyCsharp.genruntimeconfig.cache

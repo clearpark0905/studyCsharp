@@ -1,0 +1,13 @@
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\bin\Debug\netcoreapp3.1\fileInfo.exe
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\bin\Debug\netcoreapp3.1\fileInfo.deps.json
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\bin\Debug\netcoreapp3.1\fileInfo.runtimeconfig.json
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\bin\Debug\netcoreapp3.1\fileInfo.runtimeconfig.dev.json
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\bin\Debug\netcoreapp3.1\fileInfo.dll
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\bin\Debug\netcoreapp3.1\fileInfo.pdb
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\obj\Debug\netcoreapp3.1\fileInfo.csprojAssemblyReference.cache
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\obj\Debug\netcoreapp3.1\fileInfo.AssemblyInfoInputs.cache
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\obj\Debug\netcoreapp3.1\fileInfo.AssemblyInfo.cs
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\obj\Debug\netcoreapp3.1\fileInfo.csproj.CoreCompileInputs.cache
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\obj\Debug\netcoreapp3.1\fileInfo.dll
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\obj\Debug\netcoreapp3.1\fileInfo.pdb
+C:\Users\sanghyeok\source\repos\studyCsharp\fileInfo\obj\Debug\netcoreapp3.1\fileInfo.genruntimeconfig.cache
