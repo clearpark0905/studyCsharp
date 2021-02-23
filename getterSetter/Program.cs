@@ -13,6 +13,7 @@ namespace getterSetter
             Console.WriteLine("나이는 {0}, 키는 {1}, 몸무게는 {2} 입니다.",
                 human.Age, human.Height, human.Weight);
 
+
         }
     }
 
