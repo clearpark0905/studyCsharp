@@ -3,11 +3,11 @@ using System.IO;
 
 namespace fileInfo
 {
-    class Program
+    class Program //파일, 디렉터리의 정보 출력
     {
         static void Main(string[] args)
         {
-            FileInfo fileInfo = new FileInfo(@"C:\Users\sanghyeok\Desktop\test.txt");
+            FileInfo fileInfo = new FileInfo(@"C:\Users\sanghyeok\Documents\Language\CsharpEx\test.txt");
             fileInfo.Create();
 
             if (fileInfo.Exists)
@@ -30,7 +30,7 @@ namespace fileInfo
 
             }
 
-            if (File.Exists(@"C:\Users\sanghyeok\Desktop\test.txt"))
+            if (File.Exists(@"C:\Users\sanghyeok\Documents\Language\CsharpEx\test.txt"))
             {
                 Console.WriteLine("폴더 이름 : {0}", File.GetCreationTime(@"C:\Users\sanghyeok\Desktop\test.txt"));
                 Console.WriteLine("최종 접근한 시간 : {0}", File.GetLastAccessTime(@"C:\Users\sanghyeok\Desktop\test.txt"));
@@ -49,7 +49,7 @@ namespace fileInfo
             //여기까지 파일에 관한 내용 출력
             //이후로는 디렉터리에 관한 내용 출력
 
-            DirectoryInfo directoryInfo = new DirectoryInfo(@"C:\Users\sanghyeok\Desktop");
+            DirectoryInfo directoryInfo = new DirectoryInfo(@"C:\Users\sanghyeok\Documents\Language\CsharpEx");
 
             if (directoryInfo.Exists)
             {

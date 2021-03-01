@@ -2,7 +2,7 @@
 
 namespace getterSetter
 {
-    class Program
+    class Program // property, getter setter에 관한 내용
     {
         static void Main(string[] args)
         {

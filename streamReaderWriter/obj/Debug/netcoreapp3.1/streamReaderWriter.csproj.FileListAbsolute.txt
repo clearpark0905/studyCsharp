@@ -1,0 +1,13 @@
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\bin\Debug\netcoreapp3.1\streamReaderWriter.exe
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\bin\Debug\netcoreapp3.1\streamReaderWriter.deps.json
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\bin\Debug\netcoreapp3.1\streamReaderWriter.runtimeconfig.json
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\bin\Debug\netcoreapp3.1\streamReaderWriter.runtimeconfig.dev.json
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\bin\Debug\netcoreapp3.1\streamReaderWriter.dll
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\bin\Debug\netcoreapp3.1\streamReaderWriter.pdb
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\obj\Debug\netcoreapp3.1\streamReaderWriter.csprojAssemblyReference.cache
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\obj\Debug\netcoreapp3.1\streamReaderWriter.AssemblyInfoInputs.cache
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\obj\Debug\netcoreapp3.1\streamReaderWriter.AssemblyInfo.cs
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\obj\Debug\netcoreapp3.1\streamReaderWriter.csproj.CoreCompileInputs.cache
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\obj\Debug\netcoreapp3.1\streamReaderWriter.dll
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\obj\Debug\netcoreapp3.1\streamReaderWriter.pdb
+C:\Users\sanghyeok\source\repos\studyCsharp\streamReaderWriter\obj\Debug\netcoreapp3.1\streamReaderWriter.genruntimeconfig.cache
