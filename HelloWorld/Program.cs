@@ -1,13 +1,18 @@
 ﻿using System;
 
-namespace Algorithm
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            string[] ab = Console.ReadLine().Split(" ");
-            Console.WriteLine(Convert.ToInt32(ab[0]) + Convert.ToInt32(ab[1]));
-        }
+        int a = int.Parse(Console.ReadLine());
+        int b = int.Parse(Console.ReadLine());
+        int c = int.Parse(Console.ReadLine());
+        string str = (a * b * c).ToString();
+        int[] num = new int[10];
+
+        for (int i = 0; i < str.Length; i++)
+            num[int.Parse(str[i].ToString())]++;
+        for (int i = 0; i < num.Length; i++)
+            Console.WriteLine(num[i]);
     }
 }
