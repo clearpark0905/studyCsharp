@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace getterSetter
+namespace getterSetter_
 {
     class Program // property, getter setter에 관한 내용
     {

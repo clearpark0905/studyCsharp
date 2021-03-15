@@ -12,10 +12,10 @@ class Program
         int temp = 100;
         int prevNum = num;
         int i = 0;
-        while(num != temp)
+        while (num != temp)
         {
             i++;
-            temp = (prevNum%10)*10 + ((prevNum/10) + (prevNum%10))%10;
+            temp = (prevNum % 10) * 10 + ((prevNum / 10) + (prevNum % 10)) % 10;
             prevNum = temp;
         }
         Console.WriteLine(i);

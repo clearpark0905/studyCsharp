@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace streamReaderWriter
+namespace streamReaderWriter_
 {
     class Program //streamReader, streamWriter 사용법
     {
@@ -12,8 +12,8 @@ namespace streamReaderWriter
             // Read(), ReadLine(), ReadToEnd(), ReadBlock(), Peek(), ToString, DiscardBufferedData(), Close()
             // StreamWriter 메소드
             // Write(), WriteLine(), Flush(), Close()
-            
-            
+
+
             StreamWriter sw = new StreamWriter(fileStream);
 
             sw.WriteLine("Stream 클래스 예제");
@@ -26,7 +26,7 @@ namespace streamReaderWriter
             fileStream = new FileStream(@"C:\Users\sanghyeok\Documents\Language\CsharpEx\streamReaderWriterTest.txt", FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(fileStream);
 
-            while(sr.Peek() > -1) //읽을 스트림이 없을 때까지 읽는다.
+            while (sr.Peek() > -1) //읽을 스트림이 없을 때까지 읽는다.
             {
                 Console.WriteLine(sr.ReadLine());
 

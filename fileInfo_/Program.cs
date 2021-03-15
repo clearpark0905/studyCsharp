@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace fileInfo
+namespace fileInfo_
 {
     class Program //파일, 디렉터리의 정보 출력
     {
