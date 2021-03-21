@@ -14,7 +14,7 @@ class Program
         // SQL Server, XML, ADO.NET 및 IEnumerable, IEnumeralbe<T> 등 모든 개체 컬렉션에 대해 쿼리 작성 가능함.
         // LINQ query는 3가지 파트로 나뉘어져 있다.
 
-        Console.WriteLine("LINQ introduction");
+        Console.WriteLine("LINQ 개요");
         // 1. Data source
         int[] scores = new int[] { 97, 92, 81, 60 };
 
@@ -45,7 +45,7 @@ class Program
         // foreach 없이 ToList(), ToArray() 사용하여 강제 적용
         int[] numbers = new int[10] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-        List<int> numQueryToList =
+        var numQueryToList = // List<int>로도 선언 가능
             (from num in numbers
              where (num % 2) == 0
              select num).ToList();
@@ -55,13 +55,17 @@ class Program
              where (num % 2) == 0
              select num).ToArray();
 
-        foreach (int i in numQueryToArray)
+        foreach (int i in numQueryToList)
         {
             Console.WriteLine(i);
         }
+        // Output : 0 2 4 6 8
+        // 원하는 경우 List<int>가 아닌 var 키워드를 사용하여 제네릭 구문을 방지할 수 있다.
+        // orderby num ascending (or descending)을 사용하여 정렬 가능하다.
+        // group ~ by ~ into ~ 구문 사용 가능
+        // join ~ in ~ on ~ equals ~ 구문 사용 가능
 
-
-
+        
     }
 }
 
