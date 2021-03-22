@@ -14,6 +14,7 @@ class Program
         // SQL Server, XML, ADO.NET 및 IEnumerable, IEnumeralbe<T> 등 모든 개체 컬렉션에 대해 쿼리 작성 가능함.
         // LINQ query는 3가지 파트로 나뉘어져 있다.
 
+        // ---------------------------------------------------------------------------
         Console.WriteLine("LINQ 개요");
         // 1. Data source
         int[] scores = new int[] { 97, 92, 81, 60 };
@@ -32,7 +33,7 @@ class Program
         // Output : 97, 92, 81
 
 
-
+        // ---------------------------------------------------------------------------
         Console.WriteLine("Count(), Max(), Average(), First()");
         // foreach 없이 사용하는 메서드 : Count, Max, Average, First
         int scoreCount = scoreQuery.Count();
@@ -40,18 +41,18 @@ class Program
         // Output : 3
 
 
-
+        // ---------------------------------------------------------------------------
         Console.WriteLine("ToList(), ToArray()");
         // foreach 없이 ToList(), ToArray() 사용하여 강제 적용
-        int[] numbers = new int[10] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        int[] numbers1 = new int[10] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
         var numQueryToList = // List<int>로도 선언 가능
-            (from num in numbers
+            (from num in numbers1
              where (num % 2) == 0
              select num).ToList();
 
         var numQueryToArray =
-            (from num in numbers
+            (from num in numbers1
              where (num % 2) == 0
              select num).ToArray();
 
@@ -65,7 +66,63 @@ class Program
         // group ~ by ~ into ~ 구문 사용 가능
         // join ~ in ~ on ~ equals ~ 구문 사용 가능
 
-        
+
+        // ---------------------------------------------------------------------------
+        Console.WriteLine("쿼리 구문과 메서드 구문");
+        int[] numbers2 = { 5, 10, 8, 3, 6, 12 };
+
+        // Query syntax :
+        IEnumerable<int> numQuery1 =
+            from num in numbers2
+            where num % 2 == 0
+            orderby num
+            select num;
+
+        // Method syntax : 
+        IEnumerable<int> numQuery2 = numbers2.Where(num => num % 2 == 0).OrderBy(num => num);
+
+        // execution
+        Console.WriteLine("Query syntax");
+        foreach(int i in numQuery1)
+        {
+            Console.WriteLine(i);
+        }
+        Console.WriteLine("Method syntax");
+        foreach (int i in numQuery2)
+        {
+            Console.WriteLine(i);
+        }
+        // Output1 : 6 8 10 12        Output2 : 6 8 10 12
+        // C#에서 => 는 "goes to"로 읽는 람다 연산자
+
+
+        // ---------------------------------------------------------------------------
+        Console.WriteLine("표준 쿼리 연산자를 사용하여 시퀀스에 대한 정보 가져오기");
+        string sentence = "better late than never";
+        string[] words = sentence.Split(' ');
+
+        // Query syntax : 
+        var query = from word in words
+                    group word.ToUpper() by word.Length into gr
+                    orderby gr.Key
+                    select new { Length = gr.Key, Words = gr };
+
+        // Method syntax : 
+        var query2 = words
+            .GroupBy(w => w.Length, w => w.ToUpper())
+            .Select(g => new { Length = g.Key, Words = g })
+            .OrderBy(o => o.Length);
+
+        // execution
+        foreach(var obj in query2)
+        {
+            Console.WriteLine("Words of length {0}:", obj.Length);
+            foreach(string word in obj.Words)
+            {
+                Console.WriteLine(word);
+            }
+        }
+
     }
 }
 
